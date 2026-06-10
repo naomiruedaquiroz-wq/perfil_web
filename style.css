@@ -4,19 +4,19 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --navy:       #a3b9d2;   /* azul pastel suave */
-  --navy-mid:   #c0d3e8;   /* azul claro */
-  --jade:       #9dc9b6;   /* verde menta apagado */
-  --jade-light: #b8e0d2;   /* verde agua pastel */
-  --cream:      #fdfcf7;   /* crema muy claro */
+  --navy:       #8fa9c9;   /* azul suave profesional */
+  --navy-mid:   #b7c9dc;   /* azul grisáceo claro */
+  --jade:       #c9a7d9;   /* lavanda pastel como acento */
+  --jade-light: #e0cfe9;   /* lavanda muy suave */
+  --cream:      #f9f9fb;   /* fondo claro elegante */
   --white:      #ffffff;
-  --text:       #3d4a59;   /* gris azulado suave */
-  --text-muted: #7a8a99;   /* gris medio pastel */
-  --border:     #e8e6e2;   /* borde claro */
+  --text:       #2f3b4c;   /* gris azulado oscuro para texto principal */
+  --text-muted: #6c7a89;   /* gris medio para texto secundario */
+  --border:     #e2e6ea;   /* borde claro */
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Inter', system-ui, sans-serif;
   --radius: 12px;
-  --shadow: 0 4px 24px rgba(163,185,210,.15);
+  --shadow: 0 4px 24px rgba(143,169,201,.15);
   --transition: 0.28s cubic-bezier(.4,0,.2,1);
 }
 
