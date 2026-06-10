@@ -4,19 +4,19 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --navy:      #0f1f3d;
-  --navy-mid:  #1a3258;
-  --jade:      #2d7d6e;
-  --jade-light:#3a9e8c;
-  --cream:     #f7f5f0;
-  --white:     #ffffff;
-  --text:      #1e2a3a;
-  --text-muted:#5a6a7e;
-  --border:    #e0ddd6;
+  --navy:       #a3b9d2;   /* azul pastel suave */
+  --navy-mid:   #c0d3e8;   /* azul claro */
+  --jade:       #9dc9b6;   /* verde menta apagado */
+  --jade-light: #b8e0d2;   /* verde agua pastel */
+  --cream:      #fdfcf7;   /* crema muy claro */
+  --white:      #ffffff;
+  --text:       #3d4a59;   /* gris azulado suave */
+  --text-muted: #7a8a99;   /* gris medio pastel */
+  --border:     #e8e6e2;   /* borde claro */
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Inter', system-ui, sans-serif;
   --radius: 12px;
-  --shadow: 0 4px 24px rgba(15,31,61,.10);
+  --shadow: 0 4px 24px rgba(163,185,210,.15);
   --transition: 0.28s cubic-bezier(.4,0,.2,1);
 }
 
