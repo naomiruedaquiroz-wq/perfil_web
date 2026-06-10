@@ -4,19 +4,19 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --navy:       #8fa9c9;   /* azul suave profesional */
-  --navy-mid:   #b7c9dc;   /* azul grisáceo claro */
-  --jade:       #c9a7d9;   /* lavanda pastel como acento */
-  --jade-light: #e0cfe9;   /* lavanda muy suave */
-  --cream:      #f9f9fb;   /* fondo claro elegante */
-  --white:      #ffffff;
-  --text:       #2f3b4c;   /* gris azulado oscuro para texto principal */
-  --text-muted: #6c7a89;   /* gris medio para texto secundario */
-  --border:     #e2e6ea;   /* borde claro */
+  --navy:      #0f1f3d;
+  --navy-mid:  #1a3258;
+  --jade:      #2d7d6e;
+  --jade-light:#3a9e8c;
+  --cream:     #f7f5f0;
+  --white:     #ffffff;
+  --text:      #1e2a3a;
+  --text-muted:#5a6a7e;
+  --border:    #e0ddd6;
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Inter', system-ui, sans-serif;
   --radius: 12px;
-  --shadow: 0 4px 24px rgba(143,169,201,.15);
+  --shadow: 0 4px 24px rgba(15,31,61,.10);
   --transition: 0.28s cubic-bezier(.4,0,.2,1);
 }
 
