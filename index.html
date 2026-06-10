@@ -1,56 +1,166 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de Naomi Rueda Quiroz</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Librería de iconos -->
-    <script src="https://kit.fontawesome.com/a2e0e6f6f5.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naomi Rueda Quiroz | Derecho</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <h1 class="titulo-animado">Naomi Lucerito Rueda Quiroz</h1>
-        <p><i class="fas fa-university"></i> Estudiante de Derecho - Universidad Científica del Sur</p>
-    </header>
 
-    <section class="perfil">
-        <h2 class="titulo-animado"><i class="fas fa-briefcase"></i> Perfil Profesional</h2>
-        <p>
-            Soy estudiante de derecho desde 2022, interesada en el ámbito administrativo y corporativo. 
-            Actualmente realizo prácticas profesionales en el Ministerio de Salud (DIGESA). 
-            Busco seguir perfeccionando mis habilidades jurídicas y crecer profesionalmente afrontando nuevos retos.
-        </p>
-    </section>
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Perfil Profesional</p>
+      <h1 class="hero-name">Naomi Lucerito<br><span>Rueda Quiroz</span></h1>
+      <p class="hero-tagline">Estudiante de Derecho · Practicante en DIGESA · MINSA</p>
+      <div class="hero-badges">
+        <span class="badge">Derecho Administrativo</span>
+        <span class="badge">Derecho Corporativo</span>
+        <span class="badge">Universidad Científica del Sur</span>
+      </div>
+      <a href="#contacto" class="btn-primary">Contactar</a>
+    </div>
+    <div class="hero-deco" aria-hidden="true">
+      <div class="deco-circle"></div>
+      <div class="deco-ring"></div>
+    </div>
+  </section>
 
-    <section class="intereses">
-        <h2 class="titulo-animado"><i class="fas fa-heart"></i> Intereses y Aficiones</h2>
-        <ul>
-            <li><i class="fas fa-book"></i> Leer y aprender sobre diversos temas</li>
-            <li><i class="fas fa-plane"></i> Viajar y conocer nuevas culturas</li>
-            <li><i class="fas fa-hands-helping"></i> Temas sociales y voluntariado</li>
-            <li><i class="fas fa-users"></i> Responsabilidad, empatía y adaptación</li>
-        </ul>
-    </section>
+  <!-- SOBRE MÍ -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <p class="section-label">01 — Sobre mí</p>
+      <h2 class="section-title">Quién soy</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Soy estudiante de Derecho en la <strong>Universidad Científica del Sur</strong>, donde inicié mi formación en 2022 con especial interés en las ramas del <strong>Derecho Administrativo</strong> y el <strong>Derecho Corporativo</strong>.</p>
+          <p>Me considero una persona <strong>responsable, empática y adaptable</strong>, con genuina disposición para escuchar y aprender. Disfruto enfrentar nuevos retos que me permitan crecer tanto personal como profesionalmente.</p>
+          <p>Me apasiona la lectura, los viajes y conocer diversas culturas y realidades. Los temas sociales me generan especial interés, y en el futuro me gustaría participar en actividades de voluntariado.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num" data-target="2022">0</span>
+            <span class="stat-label">Inicio en la universidad</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="2">0</span>
+            <span class="stat-label">Áreas de especialización</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="1">0</span>
+            <span class="stat-label">Institución de prácticas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="voluntariado">
-        <h2 class="titulo-animado"><i class="fas fa-globe"></i> Voluntariado Futuro</h2>
-        <p>
-            Me interesa participar en proyectos sociales y de voluntariado, especialmente en temas relacionados con la salud pública y el acceso a la justicia. 
-            Mi objetivo es aportar mis conocimientos jurídicos para ayudar a comunidades vulnerables y crecer como profesional comprometida con la sociedad.
-        </p>
-    </section>
+  <!-- EXPERIENCIA (TIMELINE) -->
+  <section class="section section-dark" id="experiencia">
+    <div class="container">
+      <p class="section-label light">02 — Trayectoria</p>
+      <h2 class="section-title light">Formación & Experiencia</h2>
+      <div class="timeline">
 
-    <section class="contacto">
-        <h2 class="titulo-animado"><i class="fas fa-envelope"></i> Contacto</h2>
-        <p>Email: <a href="mailto:naomiruedaquiroz@gmail.com">naomiruedaquiroz@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/naomi-rueda-quiroz-447656365" target="_blank">Perfil LinkedIn</a></p>
-    </section>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022 — Presente</span>
+            <h3>Estudiante de Derecho</h3>
+            <p class="timeline-org">Universidad Científica del Sur</p>
+            <p>Formación en ciencias jurídicas con enfoque en Derecho Administrativo y Corporativo. Desarrollo de competencias analíticas, investigación jurídica y elaboración de documentos legales.</p>
+          </div>
+        </div>
 
-    <footer>
-        <p>&copy; 2026 Naomi Rueda Quiroz</p>
-    </footer>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Actualidad</span>
+            <h3>Practicante Profesional</h3>
+            <p class="timeline-org">DIGESA — Ministerio de Salud del Perú</p>
+            <p>Prácticas profesionales en la Dirección General de Salud Ambiental e Inocuidad Alimentaria (DIGESA), dependencia del MINSA. Aplicación del marco normativo en salud ambiental e inocuidad de alimentos.</p>
+          </div>
+        </div>
 
-    <script src="script.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERESES -->
+  <section class="section" id="intereses">
+    <div class="container">
+      <p class="section-label">03 — Más sobre mí</p>
+      <h2 class="section-title">Intereses & Valores</h2>
+      <div class="interests-grid">
+        <div class="interest-card" tabindex="0">
+          <div class="interest-icon">⚖️</div>
+          <h3>Derecho Administrativo</h3>
+          <p>Análisis de procedimientos administrativos y regulación del Estado en el ámbito de la salud pública y el ordenamiento jurídico peruano.</p>
+        </div>
+        <div class="interest-card" tabindex="0">
+          <div class="interest-icon">🏢</div>
+          <h3>Derecho Corporativo</h3>
+          <p>Interés en el derecho empresarial, contratos y el marco legal que regula las relaciones comerciales y corporativas.</p>
+        </div>
+        <div class="interest-card" tabindex="0">
+          <div class="interest-icon">📚</div>
+          <h3>Lectura & Aprendizaje</h3>
+          <p>Apasionada por la lectura y el aprendizaje continuo sobre temas jurídicos, sociales y culturales que amplían mi visión del mundo.</p>
+        </div>
+        <div class="interest-card" tabindex="0">
+          <div class="interest-icon">✈️</div>
+          <h3>Viajes & Culturas</h3>
+          <p>Me encanta viajar, conocer nuevos lugares y aprender de diversas culturas y realidades que enriquecen mi perspectiva personal y profesional.</p>
+        </div>
+        <div class="interest-card" tabindex="0">
+          <div class="interest-icon">🤝</div>
+          <h3>Temas Sociales</h3>
+          <p>Gran interés por las problemáticas sociales y el deseo futuro de contribuir mediante actividades de voluntariado y servicio a la comunidad.</p>
+        </div>
+        <div class="interest-card" tabindex="0">
+          <div class="interest-icon">🌱</div>
+          <h3>Crecimiento Profesional</h3>
+          <p>Comprometida con el desarrollo continuo de mis habilidades jurídicas y el afrontamiento de nuevos retos que impulsen mi carrera.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-dark" id="contacto">
+    <div class="container">
+      <p class="section-label light">04 — Contacto</p>
+      <h2 class="section-title light">Hablemos</h2>
+      <p class="contact-sub">¿Tienes alguna consulta o propuesta? Estoy disponible para nuevas oportunidades y conversaciones profesionales.</p>
+      <div class="contact-links">
+        <a href="mailto:naomiruedaquiroz@gmail.com" class="contact-card" id="copyEmail">
+          <span class="contact-icon">✉️</span>
+          <span class="contact-info">
+            <strong>Correo electrónico</strong>
+            <span>naomiruedaquiroz@gmail.com</span>
+          </span>
+          <span class="contact-action">Copiar</span>
+        </a>
+        <a href="https://www.linkedin.com/in/naomi-rueda-quiroz-447656365" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <span class="contact-icon">💼</span>
+          <span class="contact-info">
+            <strong>LinkedIn</strong>
+            <span>naomi-rueda-quiroz</span>
+          </span>
+          <span class="contact-action">Visitar</span>
+        </a>
+      </div>
+      <div id="toast" class="toast" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Naomi Lucerito Rueda Quiroz · Hecho con HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
